@@ -46,7 +46,7 @@ resource "aws_route_table_association" "dhev" {
 
 #Create SG
 resource "aws_security_group" "dhev" {
-    vpc_id = aws_vpc.dhev.id
+    vpc_id= aws_vpc.dhev.id
     tags = {
       Name ="VASUSG"
     }
