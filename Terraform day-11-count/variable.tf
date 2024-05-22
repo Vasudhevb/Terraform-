@@ -13,5 +13,11 @@ variable "instance_type" {
 variable "key_name" {
     description = "displays keyname"
     type = string
-    default = ""  
+    default = "" 
+}
+variable"vasu" {
+    type = list(string)
+    default = [ "vasu","arjun" ]
+    
+  
 }
