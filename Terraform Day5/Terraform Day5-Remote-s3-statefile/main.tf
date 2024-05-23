@@ -1,10 +1,8 @@
-resource "aws_instance" "name" {
-    ami = "ami-013e83f579886baeb"
-    instance_type = "t2.micro"
-    key_name = "anuraj"
-    
-    tags = {
-      Name="vasudev"
-    }
-  
+resource "aws_instance" "vasu" {
+  ami = "ami-0cc9838aa7ab1dce7"
+  instance_type = "t2.micro"
+  key_name = "anuraj"
+  tags = {
+    Name = "vasdhev"
+  }
 }
